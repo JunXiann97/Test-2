@@ -1,0 +1,23 @@
+<Window x:Class="Windows_10_Tool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Windows 10 UpGradeTool" Height="376.121" Width="513.507" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,11">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="103" Margin="10,30,0,185" Width="239">
+            <Button Name ="Win10StandardSingleLane" Content="SINGLE LANE" HorizontalAlignment="Left" Height="81" Margin="9,9,0,0" VerticalAlignment="Top" Width="218" Click="Button_Standard_Single"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="103" Margin="10,187,0,0" VerticalAlignment="Top" Width="239">
+            <Button Name="Win10XXLSingleLane" Content="SINGLE LANE" HorizontalAlignment="Left" Height="81" Margin="9,9,0,0" VerticalAlignment="Top" Width="218" Click="Button_XXL_Single"/>
+        </Border>
+        <Label Content="STANDARD MACHINE" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" VerticalAlignment="Top" Width="129"/>
+        <Label Content="XXL MACHINE" HorizontalAlignment="Left" Height="27" Margin="10,155,0,0" VerticalAlignment="Top" Width="118"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="102" Margin="254,35,0,0" VerticalAlignment="Top" Width="239">
+            <Button Name="Win10StandardDualLane" Content="DUAL LANE" HorizontalAlignment="Left" Height="81" Margin="9,10,0,0" VerticalAlignment="Top" Width="218" Click="Button_Standard_Dual"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="103" Margin="254,187,0,0" VerticalAlignment="Top" Width="239">
+            <Button Name="Win10XXLDualLane" Content="DUAL LANE" HorizontalAlignment="Left" Height="81" Margin="9,9,0,0" VerticalAlignment="Top" Width="218" Click="Button_XXL_Dual"/>
+        </Border>
+        <Label Content="Version 1.0.0.0A" HorizontalAlignment="Left" Height="27" Margin="10,295,0,0" VerticalAlignment="Top" Width="224"/>
+        <Button Name="Win7Button" Content="Windows 7 Backup" HorizontalAlignment="Left" Height="25" Margin="365,0,0,300" VerticalAlignment="Bottom" Width="128" RenderTransformOrigin="0.582,0.106" Click="Button_Win7_Backup"/>
+    </Grid>
+</Window>
